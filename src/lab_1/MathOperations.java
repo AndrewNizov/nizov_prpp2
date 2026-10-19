@@ -1,0 +1,42 @@
+package lab_1;
+
+public class MathOperations {
+    public static int add(int x, int y)
+    {
+        return x+y;
+    }
+    public static int subtract(int x, int y)
+    {
+        return x-y;
+    }
+    public static int multiply(int x, int y)
+    {
+        return x*y;
+    }
+    public static double divide(int x, int y)
+    {
+        return (double) x / y;
+    }
+    public static int findMax(int a, int b)
+    {
+        return Math.max(a,b);
+    }
+    public static int squareArea(int side)
+    {
+        return side*side;
+    }
+    public static int squarePerimeter(int side)
+    {
+        return side*4;
+    }
+    public static double findHypotenuse(double a, double b)
+    {
+        return Math.sqrt(a*a+b*b);
+    }
+    public static double calculatePercentage(double part, double total)
+    {
+        return (part/total)*100.0;
+    }
+
+
+}
